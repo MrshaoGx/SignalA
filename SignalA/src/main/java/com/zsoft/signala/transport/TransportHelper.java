@@ -63,6 +63,17 @@ public class TransportHelper {
         {
             connection.setMessageId(newMessageId);
 
+            for(int i=0;i<messagesArray.length();i++){
+                try {
+                    Object tmp=messagesArray.get(i);
+                    if(tmp instanceof String){
+                        JSONObject obj=new JSONObject(tmp.toString());
+                        messagesArray.put(i,obj);
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+            }
             for (int i = 0; i < messagesArray.length(); i++) {
 				try {
 					connection.setMessage(messagesArray.getJSONObject(i));
