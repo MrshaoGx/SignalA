@@ -3,8 +3,6 @@
 [bhc]: https://code.google.com/p/basic-http-client/
 [calc]: http://signalrcalc.apphb.com/
 
-##2017-09-09##
-Hey I will continue to update this lib.because i am gonna use it.it's a great job.
 # SignalA #
 
 # Important note #
