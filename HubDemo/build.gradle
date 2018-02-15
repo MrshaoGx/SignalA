@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:1.2.3'
+        classpath 'com.android.tools.build:gradle:3.0.1'
     }
 }
 apply plugin: 'com.android.application'
@@ -23,7 +23,7 @@ android {
 }
 
 dependencies {
-    compile "com.android.support:support-v4:18.0.+"
+    compile "com.android.support:support-v4:22.2.1"
     compile project(':SignalA')
     compile project(':SignalA.LongPolling')
 

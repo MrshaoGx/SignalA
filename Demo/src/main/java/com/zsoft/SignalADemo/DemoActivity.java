@@ -1,21 +1,20 @@
 package com.zsoft.SignalADemo;
 
-import java.util.HashMap;
-import java.util.Map;
-
-import com.androidquery.AQuery;
-import com.androidquery.callback.AjaxStatus;
-import com.androidquery.callback.AjaxCallback;
-import com.androidquery.util.Constants;
-import com.zsoft.signala.transport.StateBase;
-import com.zsoft.signala.transport.longpolling.LongPollingTransport;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.androidquery.AQuery;
+import com.androidquery.callback.AjaxCallback;
+import com.androidquery.callback.AjaxStatus;
+import com.androidquery.util.Constants;
 import com.zsoft.signala.SendCallback;
+import com.zsoft.signala.transport.StateBase;
+import com.zsoft.signala.transport.longpolling.LongPollingTransport;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class DemoActivity extends Activity {
 

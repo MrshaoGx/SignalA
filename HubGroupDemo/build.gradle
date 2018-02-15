@@ -23,7 +23,7 @@ android {
 }
 
 dependencies {
-    compile "com.android.support:support-v4:18.0.+"
+    compile "com.android.support:support-v4:22.2.1"
     compile project(':SignalA')
     compile project(':SignalA.LongPolling')
 
