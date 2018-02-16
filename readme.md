@@ -1,10 +1,11 @@
-[sr]: http://signalr.net/
+##[sr]: http://signalr.net/
 [aq]: https://github.com/androidquery/androidquery
 [bhc]: https://code.google.com/p/basic-http-client/
 [calc]: http://signalrcalc.apphb.com/
 
 # SignalA #
-
+### 2018-02-16 ###
+I'll keep update this lib.thanks for your support.:)
 # Important note #
 I will no longer update this library.
 
